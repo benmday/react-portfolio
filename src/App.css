@@ -7,7 +7,7 @@
 
 /* Color of the navbar BEFORE scroll */
 .navbar-scroll {
-  background-color: #FFC017;
+  background-color: #d29bff;
 }
 
 /* Color of the links AFTER scroll */
@@ -42,8 +42,26 @@
   font-size: 37px;
 }
 
+#profile-pic {
+  width: 30%;
+  margin: 3%;
+}
+
+#hamburger-menu {
+  font-family: 'Monoton', cursive;
+  color: white;
+  font-size: 37px;
+}
+
+#contact-btn {
+  background-color: rgb(34, 185, 160);
+}
+
 .about {
   padding: 125px 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
 
 .portfolio {
@@ -56,4 +74,8 @@
 
 .contact {
   padding: 125px 100px;
+}
+
+#idk {
+  color: rgb(34, 185, 122)
 }

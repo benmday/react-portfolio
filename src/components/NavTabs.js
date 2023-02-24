@@ -6,18 +6,25 @@ function NavTabs({ currentPage, handlePageChange }) {
   return (
     <nav className="navbar navbar-expand-md navbar-scroll fixed-top shadow-0 border-bottom border-dark">
       <div className="container">
-        <a className="navbar-brand" id="logo" href="#about" onClick={() => handlePageChange("About")}>
+        <a
+          className="navbar-brand"
+          id="logo"
+          href="#about"
+          onClick={() => handlePageChange("About")}
+        >
           BD
         </a>
         <button
           className="navbar-toggler"
+          id="hamburger-menu"
           type="button"
           data-mdb-toggle="collapse"
           data-mdb-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent"
           aria-expanded="false"
           aria-label="Toggle navigation"
-        >☰
+        >
+          ☰
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto">
@@ -40,7 +47,9 @@ function NavTabs({ currentPage, handlePageChange }) {
                 onClick={() => handlePageChange("Portfolio")}
                 // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
                 className={
-                  currentPage === "Portfolio" ? "nav-link active-tab" : "nav-link"
+                  currentPage === "Portfolio"
+                    ? "nav-link active-tab"
+                    : "nav-link"
                 }
               >
                 Portfolio
@@ -58,14 +67,16 @@ function NavTabs({ currentPage, handlePageChange }) {
                 Resume
               </a>
             </li>
-            <button
-              type="button"
-              className="btn btn-dark ms-3"
-              href="#contact"
-              onClick={() => handlePageChange("Contact")}
-            >
-              Contact
-            </button>
+            <a href="#contact">
+              <button
+                type="button"
+                className="btn btn-dark ms-3"
+                id="contact-btn"
+                onClick={() => handlePageChange("Contact")}
+              >
+                Contact
+              </button>
+            </a>
           </ul>
         </div>
       </div>
