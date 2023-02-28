@@ -10,7 +10,7 @@ export default function Portfolio() {
   return (
     <div className="portfolio">
       <section className="text-center">
-        <h4 className="mb-5" id="my-projects"><strong>My Projects</strong></h4>
+        <h4 className="mb-5" id="my-projects">My Projects</h4>
 
         <div className="row">
           <div className="col-lg-4 col-md-12 mb-4">

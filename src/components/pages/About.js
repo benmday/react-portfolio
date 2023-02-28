@@ -7,6 +7,8 @@ import nodeIcon from "../../images/node-icon.png";
 import reactIcon from "../../images/react-icon.png";
 import expressIcon from "../../images/express-icon.png";
 
+const currentAge = new Date().getFullYear() - 1996;
+
 export default function About() {
   return (
     <div className="about">
@@ -28,7 +30,7 @@ export default function About() {
           <br />
           <span style={{ marginLeft: `30px` }}>
             <span style={{ color: `rgb(196, 42, 42)` }}>age</span>:{" "}
-            <span style={{ color: `rgb(2, 155, 2)` }}>27</span>,
+            <span style={{ color: `rgb(2, 155, 2)` }}>{currentAge}</span>,
           </span>
           <br />
           <span style={{ marginLeft: `30px` }}>

@@ -154,6 +154,21 @@
   padding: 125px 100px;
 }
 
+.card-title {
+  font-family: Hack, monospace;
+  color: black;
+  font-weight: bold;
+}
+
+.card-text {
+  font-family: Hack, monospace;
+  color: rgb(39, 39, 39);
+}
+
+.fa-github {
+  color: rgb(85, 85, 85);
+}
+
 #my-projects {
   font-family: "Press Start 2P", cursive;
   display: flex;
@@ -180,6 +195,8 @@
 
 .contact {
   padding: 125px 100px;
+  font-family: Hack, monospace;
+  color: rgb(85, 85, 85);
 }
 
 .contact h4 {
