@@ -8,6 +8,9 @@ import Resume from './pages/Resume';
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
 
+  //get current year for copyright in footer
+  document.getElementById("current-year").innerHTML = new Date().getFullYear();
+
   // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
   const renderPage = () => {
     if (currentPage === 'About') {

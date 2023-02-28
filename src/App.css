@@ -2,12 +2,13 @@
 .navbar-scroll .nav-link,
 .navbar-scroll .navbar-toggler-icon,
 .navbar-scroll .navbar-brand {
-  color: #262626;
+  font-family: Hack, monospace;
+  color: black;
 }
 
 /* Color of the navbar BEFORE scroll */
 .navbar-scroll {
-  background-color: #d29bff;
+  background-image: linear-gradient(rgb(36, 102, 36), rgb(46, 80, 46));
 }
 
 /* Color of the links AFTER scroll */
@@ -33,58 +34,256 @@
 }
 
 .active-tab {
-  text-decoration: underline; 
+  text-decoration: underline;
 }
 
 #logo {
-  font-family: 'Monoton', cursive;
+  font-family: "Press Start 2P", cursive;
   color: white;
   font-size: 37px;
 }
 
-#profile-pic {
-  width: 35%;
-  margin: 3%;
-  margin-left: 10%;
-  align-items: flex-start;
-  border-radius: 10px;
-}
-
-#portfolio-code {
-  width: 25%;
-  margin-right: 20%;
-}
-
 #hamburger-menu {
-  font-family: 'Monoton', cursive;
+  font-family: "Press Start 2P", cursive;
   color: white;
   font-size: 37px;
 }
 
 #contact-btn {
-  background-color: rgb(34, 185, 160);
+  font-family: Hack, monospace;
+  color: white;
+  background-color: rgb(133, 55, 55);
 }
 
 .about {
-  padding: 100px;
+  padding: 150px 5%;
+  font-family: Hack, monospace;
+  color: black;
+}
+
+.about-main {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+}
+
+#ben-day {
+  font-family: "Press Start 2P", cursive;
+  display: block;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+#ben-day h2 {
+  margin-bottom: 25px;
+}
+
+#ben-day h6 {
+  padding-bottom: 10px;
+}
+
+#profile-pic {
+  width: 35vw;
+  max-width: 500px;
+  border-radius: 10px;
+  margin-right: -10%;
+  box-shadow: 7px 7px 8px #b3b3b3 ;
+}
+
+#example-code {
+  font-size: 10pt;
+  width: 31vw;
+}
+
+.about-text {
+  font-size: 10pt;
+  margin-top: 75px;
+  margin-left: 8%;
+  width: 71vw;
+}
+
+#skills {
+  padding: 75px;
+}
+
+#skills h2 {
+  font-family: "Press Start 2P", cursive;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.col-4 {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+#js-icon {
+  height: 100px;
+  width: 100px;
+}
+
+#express-icon {
+  height: 100px;
+  width: 100px;
+}
+
+#node-icon {
+  height: 100px;
+  width: 100px;
+}
+
+#mysql-icon {
+  height: 100px;
+  width: 100px;
+}
+
+#react-icon {
+  height: 100px;
+  width: 115px;
+}
+
+#mongodb-icon {
+  height: 100px;
+  width: 100px;
 }
 
 .portfolio {
   padding: 125px 100px;
 }
 
+#my-projects {
+  font-family: "Press Start 2P", cursive;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  color: black
+}
+
 .resume {
   padding: 125px 100px;
+  display: block;
+  text-align: center;
+}
+
+.resume h4 {
+  font-family: "Press Start 2P", cursive;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  color: black
 }
 
 .contact {
   padding: 125px 100px;
 }
 
-#idk {
-  color: rgb(34, 185, 122)
+.contact h4 {
+  font-family: "Press Start 2P", cursive;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  color: black
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-around;
+  margin: 0 20%;
+}
+
+@media only screen and (max-width: 769px) {
+  .about {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about-main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .about-text {
+    width: 90%;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  #profile-pic {
+    width: 75%;
+    align-items: flex-start;
+    border-radius: 15px;
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+
+  #example-code {
+    width: 60%;
+    margin-bottom: 50px;
+  }
+
+  #skills {
+    padding: 75px 0;
+  }
+
+  #skills {
+    padding: 75px 0 25px 0;
+  }
+}
+
+@media only screen and (max-width: 426px) {
+  #js-icon {
+    width: 75px;
+    height: 75px;
+  }
+
+  #express-icon {
+    width: 75px;
+    height: 75px;
+  }
+
+  #node-icon {
+    width: 75px;
+    height: 75px;
+  }
+
+  #mysql-icon {
+    width: 75px;
+    height: 75px;
+  }
+
+  #react-icon {
+    width: 85px;
+    height: 75px;
+  }
+
+  #mongodb-icon {
+    width: 75px;
+    height: 75px;
+  }
+
+  .portfolio {
+    padding: 125px 30px;
+  }
+
+  #skills {
+    padding: 75px 0 0 0;
+  }
+}
+
+@media only screen and (min-width: 1279px) {
+  .about-text {
+    font-size: 11.5pt;
+  }
+
+  #example-code {
+    font-size: 11.5pt;
+  }
 }

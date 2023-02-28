@@ -31,6 +31,7 @@ export default function Contact() {
 
   return (
     <StyledContactForm className="contact">
+      <h4>Contact me here!</h4>
       <form ref={form} onSubmit={sendEmail}>
         <label>Name</label>
         <input type="text" name="user_name" />
@@ -62,7 +63,7 @@ const StyledContactForm = styled.div`
       border-radius: 5px;
       border: 1px solid rgb(220, 220, 220);
       &:focus {
-        border: 2px solid rgba(0, 206, 158, 1);
+        border: 2px solid rgb(36, 102, 36);
       }
     }
     textarea {
@@ -76,7 +77,7 @@ const StyledContactForm = styled.div`
       border-radius: 5px;
       border: 1px solid rgb(220, 220, 220);
       &:focus {
-        border: 2px solid rgba(0, 206, 158, 1);
+        border: 2px solid rgb(36, 102, 36);
       }
     }
     label {
@@ -85,7 +86,7 @@ const StyledContactForm = styled.div`
     input[type="submit"] {
       margin-top: 2rem;
       cursor: pointer;
-      background: rgb(34, 185, 160);
+      background: rgb(133, 55, 55);
       color: white;
       border: none;
     }

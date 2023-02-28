@@ -24,7 +24,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          ☰
+          <i className="fas fa-bars"></i>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto">
