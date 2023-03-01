@@ -13,8 +13,7 @@
 
 /* Color of the links AFTER scroll */
 .navbar-scrolled .nav-link,
-.navbar-scrolled .navbar-toggler-icon,
-.navbar-scroll .navbar-brand {
+.navbar-scrolled .navbar-toggler-icon {
   color: #262626;
 }
 
@@ -165,7 +164,7 @@
   color: rgb(39, 39, 39);
 }
 
-.fa-github {
+.portfolio .fa-github {
   color: rgb(85, 85, 85);
 }
 

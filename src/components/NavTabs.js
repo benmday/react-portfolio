@@ -1,10 +1,13 @@
 import React from "react";
+// eslint-disable-next-line no-unused-vars
+import { Collapse } from 'mdb-ui-kit';
+// eslint-disable-next-line no-unused-vars
 
 // Here we are using object destructuring assignment to pluck off our variables from the props object
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar navbar-expand-md navbar-scroll fixed-top shadow-0 border-bottom border-dark">
+    <nav className="navbar navbar-expand-md fixed-top navbar-scroll shadow-0 border-bottom border-dark">
       <div className="container">
         <a
           className="navbar-brand"
