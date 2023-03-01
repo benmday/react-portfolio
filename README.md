@@ -38,7 +38,7 @@
   
 MDBootstrap - https://mdbootstrap.com/  
 create-react-app - https://reactjs.org/docs/create-a-new-react-app.html
-npm EmailJS - https://www.emailjs.com/
+<br/>npm EmailJS - https://www.emailjs.com/
   
 ## License
   
