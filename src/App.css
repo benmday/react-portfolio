@@ -87,7 +87,7 @@
   max-width: 500px;
   border-radius: 10px;
   margin-right: -10%;
-  box-shadow: 7px 7px 8px #b3b3b3 ;
+  box-shadow: 7px 7px 8px #b3b3b3;
 }
 
 #example-code {
@@ -174,7 +174,7 @@
   justify-content: center;
   margin-top: 20px;
   padding-bottom: 20px;
-  color: black
+  color: black;
 }
 
 .resume {
@@ -189,7 +189,11 @@
   justify-content: center;
   margin-top: 20px;
   padding-bottom: 20px;
-  color: black
+  color: black;
+}
+
+#download {
+  background-color: rgb(133, 55, 55);
 }
 
 .contact {
@@ -204,7 +208,7 @@
   justify-content: center;
   margin-top: 20px;
   padding-bottom: 20px;
-  color: black
+  color: black;
 }
 
 .footer-links {
@@ -251,6 +255,10 @@
 
   #skills {
     padding: 75px 0 25px 0;
+  }
+
+  .resume {
+    padding: 125px 25px;
   }
 }
 
