@@ -1,24 +1,26 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.b8efaafa.css",
-    "main.js": "/react-portfolio/static/js/main.f7f41b2c.js",
+    "main.css": "/react-portfolio/static/css/main.7dc7837d.css",
+    "main.js": "/react-portfolio/static/js/main.a013ab5b.js",
     "static/media/directory-cli.gif": "/react-portfolio/static/media/directory-cli.d1735f98b049ba5b2107.gif",
     "static/media/sm-backend.gif": "/react-portfolio/static/media/sm-backend.9065be70d4775c4a7d3e.gif",
     "static/media/password-generator.gif": "/react-portfolio/static/media/password-generator.c1ba7a4739ee55117e2e.gif",
     "static/media/tech-blog.gif": "/react-portfolio/static/media/tech-blog.dc8105a9a3460f809d61.gif",
     "static/media/jate.gif": "/react-portfolio/static/media/jate.b9e93a7649b1e5e6e498.gif",
     "static/media/profile-pic.jpeg": "/react-portfolio/static/media/profile-pic.937dae0bf54a0be97b25.jpeg",
+    "static/media/ben-day-resume.jpg": "/react-portfolio/static/media/ben-day-resume.841cd1fb7375948b6d27.jpg",
     "static/media/note-taker.gif": "/react-portfolio/static/media/note-taker.211cd4df37f5163585f2.gif",
     "static/media/react-icon.png": "/react-portfolio/static/media/react-icon.81ed438b18e24116794d.png",
+    "static/media/ben-day-resume.pdf": "/react-portfolio/static/media/ben-day-resume.38779dfb3a421742a4e0.pdf",
     "static/media/node-icon.png": "/react-portfolio/static/media/node-icon.9fea1c7da2bd42ab93bf.png",
     "static/media/mysql-icon.png": "/react-portfolio/static/media/mysql-icon.4676ad983d6bd3e9fac9.png",
     "static/media/js-icon.png": "/react-portfolio/static/media/js-icon.3dfb665e058d08c99f28.png",
     "index.html": "/react-portfolio/index.html",
-    "main.b8efaafa.css.map": "/react-portfolio/static/css/main.b8efaafa.css.map",
-    "main.f7f41b2c.js.map": "/react-portfolio/static/js/main.f7f41b2c.js.map"
+    "main.7dc7837d.css.map": "/react-portfolio/static/css/main.7dc7837d.css.map",
+    "main.a013ab5b.js.map": "/react-portfolio/static/js/main.a013ab5b.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8efaafa.css",
-    "static/js/main.f7f41b2c.js"
+    "static/css/main.7dc7837d.css",
+    "static/js/main.a013ab5b.js"
   ]
 }
